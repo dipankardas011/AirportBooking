@@ -26,21 +26,30 @@ public class name {
         return (dt.format(df));
     }
 
-    public void accept()throws IOException{
-        System.out.println("enter your name, gender,age, phone number and distination");
+    public void accept(String d)throws IOException{
+        System.out.println("\n+--------------------+");
+        System.out.println("| Enter your details |");
+        System.out.println("+--------------------+");
+        System.out.println("\nYour Name..");
         name = in.readLine();
+        System.out.println("\nYour Gender..");
         g = in.readLine();
+        System.out.println("\nYour Age..");
         age = Integer.parseInt(in.readLine());
+        System.out.println("\nYour Phone number..");
         no = Long.parseLong(in.readLine());
-        dis = in.readLine();
+        dis = d;
     }
 
     public void dis(){
-        System.out.println("Name: "+name);
-        System.out.println("Age: "+age);
-        System.out.println("Gender: "+g);
-        System.out.println("Phone number: "+no);
-        System.out.println("Distination: "+dis);
-        System.out.println("Time: "+t);
+        System.out.println("\n\t=============");
+        System.out.println("\t~~ SUMMARY ~~");
+        System.out.println("\tName: "+name);
+        System.out.println("\tAge: "+age);
+        System.out.println("\tGender: "+g);
+        System.out.println("\tPhone number: "+no);
+        System.out.println("\tDistination: "+dis);
+        System.out.println("\tTime: "+t);
+        System.out.println("\t=============\n");
     }
 }

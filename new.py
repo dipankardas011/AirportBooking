@@ -3,7 +3,7 @@ from PIL import Image
 
 img = Image.open("Untitled.png")
 
-m=int(-1)
+m=int(0)
 n=int(-1)
 
 mxy=int(0)
@@ -18,6 +18,11 @@ with open("data.txt") as f:
 
         for i in arr:
             n+=1
+
+            if n == 3:
+                img3=Image.open("walk_area.png")
+                img.paste(img3,(n*37, mxy))
+
             nxy=n*40
             if i == '1':
                 img2 = Image.open("full seat.jpg")

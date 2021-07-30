@@ -1,11 +1,11 @@
 LOG FILE
-DATE-TIME: 05-06-20 18:49:38
+DATE-TIME: 30-07-21 16:36:31
 Symbol (O) MEANS BOOKED AND (E) MEANS EMPTY SEATS
 
 S.No.	  A	  B	  C	|  |	  D	  E
 
-1	(w)O	(a)O	(a)E	|  |	(a)E	(w)O	
-2	(w)O	(a)E	(a)E	|  |	(a)E	(w)E	
+1	(w)O	(a)O	(a)E	|  |	(a)E	(w)E	
+2	(w)E	(a)E	(a)E	|  |	(a)E	(w)E	
 3	(w)E	(a)E	(a)E	|  |	(a)E	(w)E	
 4	(w)E	(a)E	(a)E	|  |	(a)E	(w)E	
 5	(w)E	(a)E	(a)E	|  |	(a)E	(w)E	

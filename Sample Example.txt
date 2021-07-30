@@ -1,0 +1,176 @@
+Microsoft Windows [Version 10.0.19043.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+~airport $ javac booking.java && java booking && python new.py
+
++=====================================+
+| Welcome to the DD AIRLINES PVT LTD. |
++=====================================+
+Enter the destination for the airplane..
+Mumbai
+Enter [y] to book ticket and [n] to quit
+y
+Enter (w) to book a windows seat or (n) to book a aisle seat
+w
+
++--------------------+
+| Enter your details |
++--------------------+
+
+Your Name..
+Dipankar Das
+
+Your Gender..
+Male
+
+Your Age..
+20
+
+Your Phone number..
+328947238
+
+        =============
+        ~~ SUMMARY ~~
+        Name: Dipankar Das
+        Age: 20
+        Gender: Male
+        Phone number: 328947238
+        Distination: Mumbai
+        Time: 30-07-21 16:35:45
+        =============
+Seat no.: 1A
+Enter [y] to book ticket and [n] to quit
+y
+Enter (w) to book a windows seat or (n) to book a aisle seat
+n
+
++--------------------+
+| Enter your details |
++--------------------+
+
+Your Name..
+Rocky
+
+Your Gender..
+Male
+
+Your Age..
+45
+
+Your Phone number..
+342354332
+
+=============
+        ~~ SUMMARY ~~
+        Name: Rocky
+        Age: 45
+        Gender: Male
+        Phone number: 342354332
+        Distination: Mumbai
+        Time: 30-07-21 16:36:22
+Seat no.: 1B
+Enter [y] to book ticket and [n] to quit
+n
+Dipankar Das, 20, Male, 328947238, Mumbai, 30-07-21 16:35:45, 1A, Window seat
+Rocky, 45, Male, 342354332, Mumbai, 30-07-21 16:36:22, 1B, Aisle seat
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+*(E)
+===========
+thank you !
+============

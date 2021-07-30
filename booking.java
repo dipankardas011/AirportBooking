@@ -62,13 +62,22 @@ public class booking extends name{
         }
     }
 
+    static void welcomeStart(){
+        System.out.println("+=====================================+");
+        System.out.println("| Welcome to the DD AIRLINES PVT LTD. |");
+        System.out.println("+=====================================+");
+    }
+
     public static void main(String[] args) throws IOException{
         Scanner in=new Scanner(System.in);
         booking ob1=new booking();
+        welcomeStart();
+        System.out.println("Enter the destination for the airplane..");
+        String destination = in.nextLine();
         int pos=0;
         while(true){
             
-            System.out.println("Enter (y) to book ticket and (n) to quit");
+            System.out.println("Enter [y] to book ticket and [n] to quit");
             char cae=in.next().charAt(0);
             switch(cae){
                 case 'y':
@@ -89,7 +98,7 @@ public class booking extends name{
                             side="Aisle seat";
                         }
                         name ob=new name();
-                        ob.accept();
+                        ob.accept(destination);
                         ob.t=timer();
                         ob.dis();
                         System.out.println("Seat no.: "+fr);
@@ -101,7 +110,7 @@ public class booking extends name{
                         String fr=ob1.book(m);
                         String side="Aisle seat";
                         name ob=new name();
-                        ob.accept();
+                        ob.accept(destination);
                         ob.t=timer();
                         ob.dis();
                         System.out.println("Seat no.: "+fr);
@@ -110,12 +119,13 @@ public class booking extends name{
                         A[i][j]=x;
                     }
                     break;
-                case 'n':
+                    case 'n':
                     ob1.display();
                     ob1.csv();
                     ob1.details();
                     ob1.dat();
                     ob1.message();
+                    in.close();
                     break;
                 default: System.out.println("wrong input decided");
             }

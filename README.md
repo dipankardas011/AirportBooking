@@ -18,3 +18,12 @@ for the txt file visual
 
 ## new.py (using data.txt)
 creates the image of the seat arrangement(seat arrangement.png)
+
+to run it in 
+
+in CMD
+```bat
+javac booking.java && java booking && python new.py
+```
+
+then open the file "seat arrangement.png"
