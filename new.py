@@ -32,4 +32,4 @@ with open("data.txt") as f:
                 img1 = Image.open("empty seat.jpg")
                 img.paste(img1,(nxy,mxy))
         n=-1
-img.save("seat arrangement.png")
+img.save("seatarrangement.png")

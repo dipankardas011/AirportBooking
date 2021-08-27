@@ -1,6 +1,4 @@
-# airportdemo
-
-name.java(base class) <---- booking.java (derived class)
+# Airport Booking
 
 ## booking.java
 it contains the booking of airline booking for a airplane (100 passengers)
@@ -16,14 +14,17 @@ for the seat arrangement
 ### airplane.txt
 for the txt file visual
 
-## new.py (using data.txt)
+### new. py  (using data.txt)
 creates the image of the seat arrangement(seat arrangement.png)
 
-to run it in 
+# to run it
 
 in CMD
 ```bat
 javac booking.java && java booking && python new.py
 ```
+## Final Output
 
-then open the file "seat arrangement.png"
+![](seatarrangement.png)
+
+You can also Contribute
