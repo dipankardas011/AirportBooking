@@ -1,11 +1,13 @@
 ,
 ,,,,DD AIRLINES PVT LTD.
-DATE-TIME: 30-07-21 16:36:31
+DATE-TIME: 06-11-21 12:15:30
 ,
 Name, Age, Gender, Phone_number, Destination, time, Seat_number, Seat_type
-Dipankar Das, 20, Male, 328947238, Mumbai, 30-07-21 16:35:45, 1A, Window seat
-Rocky, 45, Male, 342354332, Mumbai, 30-07-21 16:36:22, 1B, Aisle seat
+Test1, 53, M, 999091999, Kolkata, 06-11-21 12:14:20, 1A, Window seat
+test2, 23, F, 999999999, Kolkata, 06-11-21 12:14:46, 1B, Aisle seat
+test5, 54, m, 565758586, Kolkata, 06-11-21 12:15:06, 1C, Aisle seat
 *(E), *(E), *(E), *(E), *(E), *(E), *(E), *(E)
+test4, 45, F, 658968645, Kolkata, 06-11-21 12:15:26, 1E, Window seat
 *(E), *(E), *(E), *(E), *(E), *(E), *(E), *(E)
 *(E), *(E), *(E), *(E), *(E), *(E), *(E), *(E)
 *(E), *(E), *(E), *(E), *(E), *(E), *(E), *(E)
@@ -101,6 +103,4 @@ Rocky, 45, Male, 342354332, Mumbai, 30-07-21 16:36:22, 1B, Aisle seat
 *(E), *(E), *(E), *(E), *(E), *(E), *(E), *(E)
 *(E), *(E), *(E), *(E), *(E), *(E), *(E), *(E)
 *(E), *(E), *(E), *(E), *(E), *(E), *(E), *(E)
-*(E), *(E), *(E), *(E), *(E), *(E), *(E), *(E)
-*(E), *(E), *(E), *(E), *(E), *(E), *(E), *(E)
-number of tickets booked: 2
+number of tickets booked: 4
