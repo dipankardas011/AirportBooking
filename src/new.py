@@ -1,7 +1,7 @@
 from PIL import Image
 
 
-img = Image.open("Untitled.png")
+img = Image.open("src/img/Untitled.png")
 
 m=int(0)
 n=int(-1)
@@ -20,16 +20,16 @@ with open("data.txt") as f:
             n+=1
 
             if n == 3:
-                img3=Image.open("walk_area.png")
+                img3=Image.open("src/img/walk_area.png")
                 img.paste(img3,(n*37, mxy))
 
             nxy=n*40
             if i == '1':
-                img2 = Image.open("full seat.jpg")
+                img2 = Image.open("src/img/full seat.jpg")
                 img.paste(img2,(nxy,mxy))
 
             else:
-                img1 = Image.open("empty seat.jpg")
+                img1 = Image.open("src/img/empty seat.jpg")
                 img.paste(img1,(nxy,mxy))
         n=-1
 img.save("seatarrangement.png")

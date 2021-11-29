@@ -2,7 +2,7 @@ import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class name {
+public class Acceptinput {
     BufferedReader in =new BufferedReader(new InputStreamReader(System.in));
     String name;
     String t;
@@ -11,7 +11,7 @@ public class name {
     String dis;
     long no;
 
-    name(){
+    Acceptinput(){
         name = "";
         t = "";
         g = "";

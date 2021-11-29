@@ -23,7 +23,8 @@ creates the image of the seat arrangement(seat arrangement.png)
 
 in CMD
 ```bat
-javac booking.java && java booking && python new.py
+cd src
+javac BookingMain.java && java BookingMain && python new.py
 ```
 ## Final Output
 
