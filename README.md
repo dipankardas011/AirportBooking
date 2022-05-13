@@ -43,9 +43,9 @@ docker run -it \
   -v airplane:/application \
   airplane-img
 ```
-## If you are using windows
+## ⚠️If you are using windows
 > \\wsl.localhost\docker-desktop-data\version-pack-data\community\docker\volumes\airplane\_data
-## If Linux 
+## ⚠️If Linux 
 > you can find it in output result of docker volume inspect airplane
 
 
