@@ -10,6 +10,12 @@ then it creates
 # Preferred Way to run
 
 ```bash
+# Compiling from src
+chmod +x *.sh
+./Runner.sh
+
+# From the docker hub
+cd prod/
 chmod +x *.sh
 ./Runner.sh
 ```
