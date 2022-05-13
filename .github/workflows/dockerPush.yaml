@@ -16,7 +16,6 @@ jobs:
         java-version: 17
         distribution: 'adopt'
     - name: building
-      uses: actions/setup-java@main
       run: javac src/BookingMain.java
 
   buildPython:
