@@ -4,7 +4,7 @@ WORKDIR /usr/src/myapp
 RUN javac src/BookingMain.java
 ENTRYPOINT ["java", "src/BookingMain"]
 
-FROM python:3.10.4-alpine3.15 as image-builder
+FROM python:3.10-alpine3.15 as image-builder
 WORKDIR /application
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
